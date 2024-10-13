@@ -1,0 +1,19 @@
+// References:
+// Code Publishing:
+1- https://learn.microsoft.com/en-us/dotnet/core/tools/dotnet-publish
+2- https://stackify.com/how-to-deploy-asp-net-core-to-iis/
+3- https://learn.microsoft.com/en-us/aspnet/core/tutorials/publish-to-iis?view=aspnetcore-8.0&tabs=visual-studio
+4- https://enterprise.arcgis.com/en/web-adaptor/latest/install/iis/manually-enable-iis-and-required-components.htm#:~:text=Open%20Control%20Panel%20and%20click,Click%20OK.
+
+// EF Core and related Issues:
+5- https://learn.microsoft.com/en-us/ef/core/cli/dotnet
+6- https://learn.microsoft.com/en-us/aspnet/core/tutorials/min-web-api?view=aspnetcore-8.0&tabs=visual-studio
+7- https://learn.microsoft.com/en-us/dotnet/core/tools/dotnet-add-package
+8- https://learn.microsoft.com/en-us/answers/questions/663116/a-connection-was-successfully-established-with-the
+
+//EF Commands
+1- dotnet tool install --global dotnet-ef
+2- dotnet add package Microsoft.EntityFrameworkCore.SqlServer
+3- dotnet add package Microsoft.EntityFrameworkCore.Design
+4- dotnet add package Microsoft.EntityFrameworkCore.tools
+5- dotnet ef dbcontext scaffold Name=ConnectionStrings:FilmConnStr" Microsoft.EntityFrameworkCore.SqlServer -c Database -o Models

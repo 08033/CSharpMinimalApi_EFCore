@@ -1,0 +1,6 @@
+GET http://localhost:5221
+###
+GET http://localhost:5221/cats
+
+###
+GET http://localhost:5221/movies
